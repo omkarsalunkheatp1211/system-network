@@ -1,0 +1,6 @@
+---
+- name: NIC Configuration
+  hosts: web
+
+  roles:
+    - rhel-system-roles.network
